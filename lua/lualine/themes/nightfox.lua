@@ -9,25 +9,25 @@ nightfox.normal = {
 }
 
 nightfox.insert = {
-  a = { bg = colors.green, fg = colors.black },
+  a = { bg = colors.bg, fg = colors.green },
   b = { bg = colors.green, fg = colors.black },
   c = { bg = colors.green, fg = colors.black },
 }
 
 nightfox.command = {
-  a = { bg = colors.yellow, fg = colors.bg },
-  b = { bg = colors.bg, fg = colors.fg },
-  c = { bg = colors.bg, fg = colors.fg },
+  a = { bg = colors.bg, fg = colors.yellow },
+  b = { bg = colors.yellow, fg = colors.black },
+  c = { bg = colors.yellow, fg = colors.black },
 }
 
 nightfox.visual = {
-  a = { bg = colors.blue, fg = colors.black },
+  a = { bg = colors.bg, fg = colors.blue },
   b = { bg = colors.blue, fg = colors.black },
   c = { bg = colors.blue, fg = colors.black },
 }
 
 nightfox.replace = {
-  a = { bg = colors.red, fg = colors.black },
+  a = { bg = colors.bg, fg = colors.red },
   b = { bg = colors.red, fg = colors.black },
   c = { bg = colors.red, fg = colors.black },
 }

@@ -383,8 +383,8 @@ function M.apply(colors, config)
     DiagnosticWarning = { fg = c.warning },
     DiagnosticInformation = { fg = c.info },
 
-    LspFloatWinNormal = { bg = c.bg_float },
-    LspFloatWinBorder = { fg = c.border_highlight },
+    LspFloatWinNormal = { bg = c.bg },
+    LspFloatWinBorder = { fg = c.red },
     LspSagaBorderTitle = { fg = c.cyan },
     LspSagaHoverBorder = { fg = c.blue },
     LspSagaRenameBorder = { fg = c.green },

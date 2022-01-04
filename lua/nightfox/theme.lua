@@ -324,18 +324,18 @@ function M.apply(colors, config)
     TelescopeMatching = { fg = c.blue },
 
     -- NvimTree
-    NvimTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
-    NvimTreeFolderIcon = { fg = c.comment },
-    NvimTreeRootFolder = { fg = c.orange, style = "bold" },
+    NvimTreeNormal = { fg = c.fg, bg = c.bg },
+    NvimTreeFolderIcon = { fg = c.blue },
+    NvimTreeRootFolder = { fg = c.orange },
     NvimTreeSymlink = { fg = c.magenta },
     NvimTreeFolderName = { fg = c.blue },
     NvimTreeEmptyFolderName = { fg = c.comment },
     NvimTreeOpenedFolderName = { fg = c.blue_br },
-    NvimTreeOpenedFile = { fg = c.magenta }, -- TODO: not working
+    NvimTreeOpenedFile = { fg = c.orange }, -- TODO: not working
     NvimTreeGitDirty = { fg = c.git.change },
     NvimTreeGitNew = { fg = c.git.add },
     NvimTreeGitDeleted = { fg = c.git.delete },
-    NvimTreeSpecialFile = { fg = c.cyan },
+    NvimTreeSpecialFile = { fg = c.yellow },
     NvimTreeIndentMarker = { fg = c.fg_gutter },
     NvimTreeImageFile = { fg = c.fg_sidebar },
     LspDiagnosticsError = { fg = c.error },
